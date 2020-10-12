@@ -11,9 +11,9 @@ namespace BakeryShop.Models
         public IEnumerable<Pie> AllPies =>
             new List<Pie>
             {
-                new Pie{PieId=1, Name="Strawberry pie", Price=15.95M, ShortDescription="siuefh", LongDescription="woiehfowf"},
-                new Pie{PieId=2, Name="Blueberry pie", Price=16.95M, ShortDescription="pwodjw", LongDescription="wdhwid"},
-                new Pie{PieId=3, Name="Pumpkin pie", Price=20.95M, ShortDescription="wfjef", LongDescription="wkfk"},
+                new Pie{PieId=1, Name="Strawberry pie", Price=15.95M, ShortDescription="siuefh", LongDescription="woiehfowf", Category= new Category{CategoryName="Fruit pies"} },
+                new Pie{PieId=2, Name="Blueberry pie", Price=16.95M, ShortDescription="pwodjw", LongDescription="wdhwid", Category= new Category{CategoryName="Fruit pies"}},
+                new Pie{PieId=3, Name="Pumpkin pie", Price=20.95M, ShortDescription="wfjef", LongDescription="wkfk", Category= new Category{CategoryName="Fruit pies"}},
 
             };
 
