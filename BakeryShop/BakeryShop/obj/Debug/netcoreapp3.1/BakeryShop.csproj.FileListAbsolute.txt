@@ -29,3 +29,6 @@ D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Raz
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.RazorTargetAssemblyInfo.cs
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.Views.pdb
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.csproj.CopyComplete
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
