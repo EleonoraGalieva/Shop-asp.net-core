@@ -3,14 +3,16 @@ using BakeryShop.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BakeryShop.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201026152345_FirstDataAdded")]
+    partial class FirstDataAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -110,34 +112,6 @@ namespace BakeryShop.Migrations
                             Name = "Sofia",
                             Price = 12.95m,
                             ShortDescription = "The best apple pie ever!"
-                        },
-                        new
-                        {
-                            PieId = 2,
-                            AllergyInfo = "Contains sugar, milk, gluten",
-                            CategoryId = 2,
-                            ImageThumbnailUrl = "https://images.ctfassets.net/3s5io6mnxfqz/3RG0DDIeU6oW5XG04n2JSN/6f55a3abe26a310adf6ac1eeccbd811e/AdobeStock_177050939.jpeg?w=800&fm=jpg&fl=progressive",
-                            ImageUrl = "https://images.ctfassets.net/3s5io6mnxfqz/3RG0DDIeU6oW5XG04n2JSN/6f55a3abe26a310adf6ac1eeccbd811e/AdobeStock_177050939.jpeg?w=800&fm=jpg&fl=progressive",
-                            InStock = true,
-                            IsPieOfTheWeek = true,
-                            LongDescription = "This is absolutely the BEST homemade pumpkin pie recipe! Make it with canned or fresh pumpkin puree and up to several days ahead. Also freezes well! Thanksgiving pie never looked so good or so easy.",
-                            Name = "Autumn Wonders",
-                            Price = 16.45m,
-                            ShortDescription = "Yummy pie for autmn."
-                        },
-                        new
-                        {
-                            PieId = 3,
-                            AllergyInfo = "Contains sugar, milk, gluten",
-                            CategoryId = 3,
-                            ImageThumbnailUrl = "https://i2.wp.com/www.sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4.jpg",
-                            ImageUrl = "https://i2.wp.com/www.sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4.jpg",
-                            InStock = true,
-                            IsPieOfTheWeek = false,
-                            LongDescription = "Simple and classic! The texture is smooth, rich, and creamy, served over a crisp homemade graham cracker crust.",
-                            Name = "Soft cheesecake",
-                            Price = 10.20m,
-                            ShortDescription = "THE BEST cheesecake of your life!"
                         });
                 });
 
