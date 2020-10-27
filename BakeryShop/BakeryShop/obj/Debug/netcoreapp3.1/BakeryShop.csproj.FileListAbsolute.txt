@@ -73,3 +73,7 @@ D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\run
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.csproj.CoreCompileInputs.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.MvcApplicationPartsAssemblyInfo.cache
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Razor\Views\Pie\Details.cshtml.g.cs
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PieCard.cshtml.g.cs
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Carousel.cshtml.g.cs
