@@ -15,6 +15,7 @@ namespace BakeryShop.Models
 
         public DbSet<Pie> Pies { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 1, CategoryName = "Apple pies" });
