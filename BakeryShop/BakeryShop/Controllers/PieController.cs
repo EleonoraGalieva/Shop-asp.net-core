@@ -19,12 +19,20 @@ namespace BakeryShop.Controllers
             _pieRepository = pieRepository;
         }
 
-        public ViewResult List()
+        public ViewResult List(string currentCategory)
         {
             PiesListViewModel piesListViewModel = new PiesListViewModel();
 
-            piesListViewModel.Pies = _pieRepository.AllPies;
-            piesListViewModel.CurrentCategory = "Cheese cakes";
+            if (string.IsNullOrEmpty(currentCategory))
+            {
+                piesListViewModel.Pies = _pieRepository.AllPies;
+                currentCategory = "All pies";
+            }
+            else
+            {
+                piesListViewModel.Pies = _pieRepository.AllPies.Where(p => p.Category.CategoryName == currentCategory).OrderBy(p=>p.PieId);
+            }
+            piesListViewModel.CurrentCategory = currentCategory;
 
             return View(piesListViewModel);
         }

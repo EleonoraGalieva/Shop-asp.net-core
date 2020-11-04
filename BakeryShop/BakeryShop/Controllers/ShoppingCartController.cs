@@ -29,13 +29,14 @@ namespace BakeryShop.Controllers
             };
             return View(shoppingCartViewModel);
         }
-        public void AddToShoppingCart(int pieId)
+        public RedirectToActionResult AddToShoppingCart(int pieId)
         {
-            var selectedPie = _pieRepository.AllPies.FirstOrDefault(p => pieId == p.PieId);
+            var selectedPie = _pieRepository.AllPies.FirstOrDefault(p => p.PieId == pieId);
             if (selectedPie != null)
             {
                 _shoppingCart.AddToCart(selectedPie, 1);
             }
+            return RedirectToAction("Index");
         }
         public RedirectToActionResult RemoveFromShoppingCart(int pieId)
         {
