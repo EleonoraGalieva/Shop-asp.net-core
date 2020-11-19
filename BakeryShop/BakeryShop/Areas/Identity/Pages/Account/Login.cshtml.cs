@@ -95,7 +95,7 @@ namespace BakeryShop.Areas.Identity.Pages.Account
                     _logger.LogWarning("User account locked out.");
                     return RedirectToPage("./Lockout");
                 }
-                if (await _userManager.IsEmailConfirmedAsync(user))
+                if (!await _userManager.IsEmailConfirmedAsync(user))
                 {
                     _logger.LogWarning("User account not confirmed.");
                     ModelState.AddModelError(string.Empty, "Invalid login attempt.");
