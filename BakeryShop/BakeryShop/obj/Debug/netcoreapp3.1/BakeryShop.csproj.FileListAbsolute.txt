@@ -188,9 +188,11 @@ D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Ser
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Serilog.Settings.Configuration.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Serilog.Sinks.Debug.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Serilog.Enrichers.Environment.dll
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Serilog.Enrichers.Process.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Serilog.Filters.Expressions.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Superpower.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\MailKit.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\MimeKit.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.csproj.CoreCompileInputs.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.MvcApplicationPartsAssemblyInfo.cs
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.MvcApplicationPartsAssemblyInfo.cache
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Serilog.Filters.Expressions.dll
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Superpower.dll

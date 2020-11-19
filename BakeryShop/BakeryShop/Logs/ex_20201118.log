@@ -1,3 +1,465 @@
 2020-11-18T17:46:33.5859057+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"OrderTotal"' on entity type '"Order"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
 2020-11-18T17:46:33.6168745+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
 2020-11-18T17:46:33.6219380+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"Pie"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T18:38:59.3981207+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"OrderTotal"' on entity type '"Order"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T18:38:59.4114734+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T18:38:59.4117099+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"Pie"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T18:44:17.3756848+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"OrderTotal"' on entity type '"Order"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T18:44:17.3908704+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T18:44:17.3916254+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"Pie"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T18:45:46.1279070+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"OrderTotal"' on entity type '"Order"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T18:45:46.1554138+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T18:45:46.1557851+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"Pie"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T18:47:15.6219189+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"OrderTotal"' on entity type '"Order"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T18:47:15.6379973+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T18:47:15.6387671+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"Pie"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T20:36:54.8947614+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"OrderTotal"' on entity type '"Order"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T20:36:54.9128237+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T20:36:54.9131570+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"Pie"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T20:37:05.5983886+03:00 [WRN] (Microsoft.AspNetCore.Identity.SignInManager) User "e38b0386-d28f-4fbb-8187-6d22eae69a98" cannot sign in without a confirmed email.
+2020-11-18T20:40:48.5401821+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"OrderTotal"' on entity type '"Order"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T20:40:48.5676789+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T20:40:48.5692143+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"Pie"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T20:41:10.5547643+03:00 [WRN] (Microsoft.AspNetCore.Identity.SignInManager) User "e38b0386-d28f-4fbb-8187-6d22eae69a98" cannot sign in without a confirmed email.
+2020-11-18T20:41:20.4941588+03:00 [WRN] (Microsoft.AspNetCore.Identity.UserManager) User validation failed: "DuplicateUserName;DuplicateEmail".
+2020-11-18T20:56:39.5363644+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"OrderTotal"' on entity type '"Order"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T20:56:39.5635527+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T20:56:39.5646329+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"Pie"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T21:03:39.5747720+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"OrderTotal"' on entity type '"Order"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T21:03:39.5903800+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T21:03:39.5906400+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"Pie"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T21:07:56.9774378+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"OrderTotal"' on entity type '"Order"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T21:07:56.9986572+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T21:07:56.9989003+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"Pie"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:27:06.0246251+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"OrderTotal"' on entity type '"Order"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:27:06.0414422+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:27:06.0417586+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"Pie"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:27:50.4447621+03:00 [ERR] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Register" responded 500 in 10005.4763 ms
+MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials n7sm14209213edb.34 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials n7sm14209213edb.34 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at BakeryShop.Areas.Identity.EmailSender.SendEmailAsync(String email, String subject, String message) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\EmailSender.cs:line 28
+   at BakeryShop.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\Pages\Account\Register.cshtml.cs:line 90
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-11-18T23:27:51.0244757+03:00 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials n7sm14209213edb.34 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials n7sm14209213edb.34 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at BakeryShop.Areas.Identity.EmailSender.SendEmailAsync(String email, String subject, String message) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\EmailSender.cs:line 28
+   at BakeryShop.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\Pages\Account\Register.cshtml.cs:line 90
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-18T23:36:32.8711105+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"OrderTotal"' on entity type '"Order"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:36:32.8865487+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:36:32.8867900+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"Pie"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:36:53.3819701+03:00 [WRN] (Microsoft.AspNetCore.Identity.UserManager) User validation failed: "DuplicateUserName;DuplicateEmail".
+2020-11-18T23:37:22.7741796+03:00 [ERR] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Register" responded 500 in 3564.8355 ms
+MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials k20sm5467068wmi.15 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials k20sm5467068wmi.15 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at BakeryShop.Areas.Identity.EmailSender.SendEmailAsync(String email, String subject, String message) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\EmailSender.cs:line 29
+   at BakeryShop.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\Pages\Account\Register.cshtml.cs:line 90
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-11-18T23:37:22.9108477+03:00 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials k20sm5467068wmi.15 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials k20sm5467068wmi.15 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at BakeryShop.Areas.Identity.EmailSender.SendEmailAsync(String email, String subject, String message) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\EmailSender.cs:line 29
+   at BakeryShop.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\Pages\Account\Register.cshtml.cs:line 90
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-18T23:38:44.1179877+03:00 [WRN] (Microsoft.AspNetCore.Identity.UserManager) User validation failed: "DuplicateUserName;DuplicateEmail".
+2020-11-18T23:39:01.5548236+03:00 [ERR] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Register" responded 500 in 1818.1668 ms
+MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials g13sm2909502edy.7 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials g13sm2909502edy.7 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at BakeryShop.Areas.Identity.EmailSender.SendEmailAsync(String email, String subject, String message) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\EmailSender.cs:line 29
+   at BakeryShop.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\Pages\Account\Register.cshtml.cs:line 90
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-11-18T23:39:01.5716808+03:00 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials g13sm2909502edy.7 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials g13sm2909502edy.7 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at BakeryShop.Areas.Identity.EmailSender.SendEmailAsync(String email, String subject, String message) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\EmailSender.cs:line 29
+   at BakeryShop.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\Pages\Account\Register.cshtml.cs:line 90
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-18T23:45:06.6873890+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"OrderTotal"' on entity type '"Order"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:45:06.7032569+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:45:06.7034865+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"Pie"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:46:18.5482756+03:00 [ERR] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Register" responded 500 in 5223.5856 ms
+MailKit.Security.AuthenticationException: 535: 5.7.8 Error: authentication failed: This user does not have access rights to this service
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Error: authentication failed: This user does not have access rights to this service
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at BakeryShop.Areas.Identity.EmailSender.SendEmailAsync(String email, String subject, String message) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\EmailSender.cs:line 29
+   at BakeryShop.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\Pages\Account\Register.cshtml.cs:line 90
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-11-18T23:46:18.6935661+03:00 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+MailKit.Security.AuthenticationException: 535: 5.7.8 Error: authentication failed: This user does not have access rights to this service
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Error: authentication failed: This user does not have access rights to this service
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at BakeryShop.Areas.Identity.EmailSender.SendEmailAsync(String email, String subject, String message) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\EmailSender.cs:line 29
+   at BakeryShop.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\Pages\Account\Register.cshtml.cs:line 90
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-18T23:50:19.1013806+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"OrderTotal"' on entity type '"Order"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:50:19.1179419+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:50:19.1183165+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"Pie"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:50:46.7363336+03:00 [ERR] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Register" responded 500 in 4659.0690 ms
+MailKit.Net.Smtp.SmtpCommandException: 5.7.1 Sender address rejected: not owned by auth user.
+   at MailKit.Net.Smtp.SmtpClient.OnSenderNotAccepted(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.ProcessMailFromResponse(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.FlushCommandQueueAsync(MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at BakeryShop.Areas.Identity.EmailSender.SendEmailAsync(String email, String subject, String message) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\EmailSender.cs:line 30
+   at BakeryShop.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\Pages\Account\Register.cshtml.cs:line 90
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-11-18T23:50:46.8854837+03:00 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+MailKit.Net.Smtp.SmtpCommandException: 5.7.1 Sender address rejected: not owned by auth user.
+   at MailKit.Net.Smtp.SmtpClient.OnSenderNotAccepted(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.ProcessMailFromResponse(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.FlushCommandQueueAsync(MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at BakeryShop.Areas.Identity.EmailSender.SendEmailAsync(String email, String subject, String message) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\EmailSender.cs:line 30
+   at BakeryShop.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\Pages\Account\Register.cshtml.cs:line 90
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-18T23:51:46.8122470+03:00 [ERR] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Register" responded 500 in 4841.4206 ms
+MailKit.Net.Smtp.SmtpCommandException: 5.7.1 Sender address rejected: not owned by auth user.
+   at MailKit.Net.Smtp.SmtpClient.OnSenderNotAccepted(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.ProcessMailFromResponse(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.FlushCommandQueueAsync(MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at BakeryShop.Areas.Identity.EmailSender.SendEmailAsync(String email, String subject, String message) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\EmailSender.cs:line 30
+   at BakeryShop.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\Pages\Account\Register.cshtml.cs:line 90
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-11-18T23:51:46.8347844+03:00 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+MailKit.Net.Smtp.SmtpCommandException: 5.7.1 Sender address rejected: not owned by auth user.
+   at MailKit.Net.Smtp.SmtpClient.OnSenderNotAccepted(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.ProcessMailFromResponse(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.FlushCommandQueueAsync(MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at BakeryShop.Areas.Identity.EmailSender.SendEmailAsync(String email, String subject, String message) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\EmailSender.cs:line 30
+   at BakeryShop.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\Pages\Account\Register.cshtml.cs:line 90
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-18T23:53:34.2172392+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"OrderTotal"' on entity type '"Order"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:53:34.2374465+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:53:34.2376813+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"Pie"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:54:07.1128294+03:00 [ERR] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Register" responded 500 in 5472.7335 ms
+MailKit.Net.Smtp.SmtpCommandException: 5.7.1 [2] Message rejected under suspicion of SPAM; https://ya.cc/1IrBc 1605732845-oJ6aLZE7DN-s4HeB4bt
+   at MailKit.Net.Smtp.SmtpClient.DataAsync(FormatOptions options, MimeMessage message, Int64 size, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at BakeryShop.Areas.Identity.EmailSender.SendEmailAsync(String email, String subject, String message) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\EmailSender.cs:line 30
+   at BakeryShop.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\Pages\Account\Register.cshtml.cs:line 90
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-11-18T23:54:07.2684119+03:00 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+MailKit.Net.Smtp.SmtpCommandException: 5.7.1 [2] Message rejected under suspicion of SPAM; https://ya.cc/1IrBc 1605732845-oJ6aLZE7DN-s4HeB4bt
+   at MailKit.Net.Smtp.SmtpClient.DataAsync(FormatOptions options, MimeMessage message, Int64 size, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at BakeryShop.Areas.Identity.EmailSender.SendEmailAsync(String email, String subject, String message) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\EmailSender.cs:line 30
+   at BakeryShop.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\Pages\Account\Register.cshtml.cs:line 90
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-18T23:56:14.5092685+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"OrderTotal"' on entity type '"Order"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:56:14.5263622+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:56:14.5266040+03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) No type was specified for the decimal property '"Price"' on entity type '"Pie"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2020-11-18T23:56:43.2667599+03:00 [ERR] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Register" responded 500 in 4556.3334 ms
+MailKit.Net.Smtp.SmtpCommandException: 5.7.1 [2] Message rejected under suspicion of SPAM; https://ya.cc/1IrBc 1605733002-w7QfqLvQrO-ufIWt5gC
+   at MailKit.Net.Smtp.SmtpClient.DataAsync(FormatOptions options, MimeMessage message, Int64 size, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at BakeryShop.Areas.Identity.EmailSender.SendEmailAsync(String email, String subject, String message) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\EmailSender.cs:line 30
+   at BakeryShop.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\Pages\Account\Register.cshtml.cs:line 90
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-11-18T23:56:43.3953979+03:00 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+MailKit.Net.Smtp.SmtpCommandException: 5.7.1 [2] Message rejected under suspicion of SPAM; https://ya.cc/1IrBc 1605733002-w7QfqLvQrO-ufIWt5gC
+   at MailKit.Net.Smtp.SmtpClient.DataAsync(FormatOptions options, MimeMessage message, Int64 size, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at BakeryShop.Areas.Identity.EmailSender.SendEmailAsync(String email, String subject, String message) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\EmailSender.cs:line 30
+   at BakeryShop.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\Areas\Identity\Pages\Account\Register.cshtml.cs:line 90
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)

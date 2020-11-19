@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using BakeryShop.Areas.Identity;
 using BakeryShop.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -35,17 +37,24 @@ namespace BakeryShop
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddScoped<ShoppingCart>(sp => ShoppingCart.GetCart(sp));
+            services.AddTransient<IEmailSender, EmailSender>();
             services.AddHttpContextAccessor();
             services.AddSession();
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.Configure<IdentityOptions>(opt =>
+            {
+                opt.Password.RequiredLength = 7;
+                opt.Password.RequireDigit = false;
+                opt.Password.RequireUppercase = false;
+                opt.User.RequireUniqueEmail = true;
+                opt.SignIn.RequireConfirmedAccount = true;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            /*var path = Directory.GetCurrentDirectory();
-            loggerFactory.AddFile($"{path}\\Logs\\Log.txt");*/
 
             if (env.IsDevelopment())
             {
