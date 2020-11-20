@@ -41,7 +41,8 @@ namespace BakeryShop.Controllers
             var pie = _pieRepository.GetPieById(id);
             if (pie==null)
             {
-                return NotFound();
+                Response.StatusCode = 404;
+                return View("PieNotFound");
             }
             return View(pie);
         }

@@ -16,8 +16,8 @@ namespace BakeryShop.Controllers
             _pieRepository = pieRepository;
         }
         public IActionResult Index()
-        {
-            var homeViewModel = new HomeViewModel { PiesOfTheWeek = _pieRepository.PiesOfTheWeek };
+        {          
+            var homeViewModel = new HomeViewModel { PiesOfTheWeek = _pieRepository.PiesOfTheWeek };          
             return View(homeViewModel);
         }
     }
