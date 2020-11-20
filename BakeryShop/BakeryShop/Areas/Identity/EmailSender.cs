@@ -26,7 +26,7 @@ namespace BakeryShop.Areas.Identity
             using (var client = new SmtpClient())
             {
                 await client.ConnectAsync("smtp.yandex.ru", 25, false);
-                await client.AuthenticateAsync("eleonorgalieva@yandex.ru", "Bratzkid121820");
+                await client.AuthenticateAsync("eleonorgalieva@yandex.ru", "");
                 await client.SendAsync(emailMessage);
 
                 await client.DisconnectAsync(true);
