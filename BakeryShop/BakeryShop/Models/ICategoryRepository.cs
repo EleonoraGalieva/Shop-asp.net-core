@@ -7,6 +7,6 @@ namespace BakeryShop.Models
 {
     public interface ICategoryRepository
     {
-        IEnumerable<Category> AllCategories { get; }
+        public IEnumerable<Category> AllCategories { get; }
     }
 }
