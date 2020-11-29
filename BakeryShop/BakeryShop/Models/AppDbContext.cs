@@ -24,11 +24,12 @@ namespace BakeryShop.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
             modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 1, CategoryName = "Apple pies" });
             modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 2, CategoryName = "Pumpkin pies" });
             modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 3, CategoryName = "Cheesecakes" });
-
+            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 4, CategoryName = "Pies with nuts" });
+            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 5, CategoryName = "Ice cream pie" });
+            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 6, CategoryName = "Other" });
             modelBuilder.Entity<Pie>().HasData(new Pie
             {
                 PieId = 1,

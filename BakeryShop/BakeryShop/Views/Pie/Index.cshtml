@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Pie>
+@{
+    ViewBag.Title = "List of pies";
+}
+<h3>Here you can add a new pie:</h3>
+<a class="btn btn-primary" asp-action="Create">Add new pie</a>
+<hr />
+<h4>Click on the pie to edit the information:</h4>
+
+<div class="row">
+    @foreach (var pie in Model)
+    {
+        <a asp-action="Edit" asp-route-id="@pie.PieId">
+            <partial name="_EditPieCard" model="pie" />
+        </a>
+    }
+</div>
+

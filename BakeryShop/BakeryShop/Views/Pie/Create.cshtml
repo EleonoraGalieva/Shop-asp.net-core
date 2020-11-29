@@ -1,0 +1,52 @@
+﻿@model CreatePieViewModel
+@{
+    ViewBag.Title = "Create pie";
+}
+<form asp-action="Create" asp-controller="Pie">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Name" class="control-label">Name</label>
+        <input type="text" asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ShortDescription" class="control-label">Short description</label>
+        <input type="text" asp-for="ShortDescription" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="LongDescription" class="control-label">Long description</label>
+        <input type="text" asp-for="LongDescription" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="AllergyInfo" class="control-label">Allergy info</label>
+        <input type="text" asp-for="AllergyInfo" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Price" class="control-label">Price</label>
+        <input type="text" asp-for="Price" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ImageUrl" class="control-label">Image (url)</label>
+        <input type="text" asp-for="ImageUrl" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ImageThumbnailUrl" class="control-label">Image for thumbnail (url)</label>
+        <input type="url" asp-for="ImageThumbnailUrl" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="IsPieOfTheWeek" class="control-label">Is it pie of the week?</label>
+        <input type="checkbox" asp-for="IsPieOfTheWeek" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="InStock" class="control-label">Is it in stock?</label>
+        <input type="checkbox" asp-for="InStock" class="form-control" />
+    </div>
+    <hr />
+    <div class="form-group">
+        <label asp-for="CategoryId" class="control-label">Category</label>
+        <select asp-for="CategoryId" asp-items="Model.Categories" class="form-control"></select>
+    </div>
+    <hr />
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-outline-secondary" />
+    </div>
+</form>
