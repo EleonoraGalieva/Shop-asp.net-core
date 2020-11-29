@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BakeryShop.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,9 +13,14 @@ namespace BakeryShop.Controllers
     {
         UserManager<IdentityUser> _userManager;
         public UsersController(UserManager<IdentityUser> userManager) => _userManager = userManager;
+
+        [Authorize(Roles = "admin")]
         public IActionResult Index() => View(_userManager.Users.ToList());
+
+        [Authorize(Roles = "admin")]
         public IActionResult Create() => View();
 
+        [Authorize(Roles = "admin")]
         [HttpPost]
         public async Task<IActionResult> Create(CreateUserViewModel model)
         {
@@ -36,6 +42,8 @@ namespace BakeryShop.Controllers
             }
             return View(model);
         }
+
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(string id)
         {
             var user = await _userManager.FindByIdAsync(id);
@@ -47,6 +55,7 @@ namespace BakeryShop.Controllers
             return View(model);
         }
 
+        [Authorize(Roles = "admin")]
         [HttpPost]
         public async Task<IActionResult> Edit(EditUserViewModel model)
         {
@@ -75,6 +84,7 @@ namespace BakeryShop.Controllers
             return View(model);
         }
 
+        [Authorize(Roles = "admin")]
         [HttpPost]
         public async Task<ActionResult> Delete(string id)
         {

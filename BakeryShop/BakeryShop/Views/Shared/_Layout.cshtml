@@ -26,9 +26,10 @@
                     <ul class="nav navbar-nav">
                         <li><a asp-controller="Home" asp-action="Index">Home</a></li>
                         @await Component.InvokeAsync("MenuCategory")
-                        @await Component.InvokeAsync("ShoppingCartSummary")
                         <li><a asp-controller="Reviews" asp-action="Index">Reviews</a></li>
+                        @await Component.InvokeAsync("ShoppingCartSummary")                        
                         <partial name="_LoginPartial" />
+
                     </ul>
                 </div>
             </div>

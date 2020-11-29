@@ -51,6 +51,7 @@ namespace BakeryShop.Controllers
 
         [Authorize(Roles = "admin")]
         public IActionResult Index() => View(_pieRepository.AllPies.ToList());
+        [Authorize(Roles = "admin")]
         public IActionResult Create()
         {
             CreatePieViewModel model = new CreatePieViewModel();
@@ -85,6 +86,7 @@ namespace BakeryShop.Controllers
             }
             return RedirectToAction("Index");
         }
+
         [Authorize(Roles = "admin")]
         public IActionResult Edit(int id)
         {
