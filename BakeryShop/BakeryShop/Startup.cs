@@ -33,15 +33,22 @@ namespace BakeryShop
         {
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+            services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            {
+                options.SignIn.RequireConfirmedEmail = true;
+            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
             services.AddAuthentication()
                 .AddGoogle(options =>
                 {
                     options.ClientId = "668642207552-f58kbrjt2vjtn1b7td8pitubjjltujn3.apps.googleusercontent.com";
                     options.ClientSecret = "QD9ng15VEhZPjYiXFvdgvvO3";
-                });
-
+                })
+                /*.AddFacebook(options =>
+                {
+                    options.AppId = "872204190187880";
+                    options.AppSecret = "7f92ebae7f7eeded40880f89f7b88f4e";
+                })*/;
             services.AddScoped<IPieRepository, PieRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
@@ -50,7 +57,7 @@ namespace BakeryShop
             services.AddHttpContextAccessor();
             services.AddSession();
             services.AddControllersWithViews();
-            services.AddSignalR();           
+            services.AddSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

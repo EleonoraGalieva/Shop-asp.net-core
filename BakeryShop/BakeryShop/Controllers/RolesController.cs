@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BakeryShop.Controllers
 {
-    [Authorize(Roles = "admin")]
+    //[Authorize(Roles = "admin")]
     public class RolesController : Controller
     {
         RoleManager<IdentityRole> _roleManager;
