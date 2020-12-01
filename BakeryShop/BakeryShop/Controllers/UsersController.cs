@@ -9,18 +9,16 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BakeryShop.Controllers
 {
+    [Authorize(Roles = "admin")]
     public class UsersController : Controller
     {
         UserManager<IdentityUser> _userManager;
         public UsersController(UserManager<IdentityUser> userManager) => _userManager = userManager;
 
-        [Authorize(Roles = "admin")]
         public IActionResult Index() => View(_userManager.Users.ToList());
 
-        [Authorize(Roles = "admin")]
         public IActionResult Create() => View();
 
-        [Authorize(Roles = "admin")]
         [HttpPost]
         public async Task<IActionResult> Create(CreateUserViewModel model)
         {
@@ -43,7 +41,6 @@ namespace BakeryShop.Controllers
             return View(model);
         }
 
-        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(string id)
         {
             var user = await _userManager.FindByIdAsync(id);
@@ -55,7 +52,6 @@ namespace BakeryShop.Controllers
             return View(model);
         }
 
-        [Authorize(Roles = "admin")]
         [HttpPost]
         public async Task<IActionResult> Edit(EditUserViewModel model)
         {
@@ -84,7 +80,6 @@ namespace BakeryShop.Controllers
             return View(model);
         }
 
-        [Authorize(Roles = "admin")]
         [HttpPost]
         public async Task<ActionResult> Delete(string id)
         {

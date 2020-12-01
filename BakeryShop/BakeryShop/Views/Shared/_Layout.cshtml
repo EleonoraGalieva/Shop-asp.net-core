@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@inject SignInManager<IdentityUser> _signInManager;
+
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -27,9 +29,29 @@
                         <li><a asp-controller="Home" asp-action="Index">Home</a></li>
                         @await Component.InvokeAsync("MenuCategory")
                         <li><a asp-controller="Reviews" asp-action="Index">Reviews</a></li>
-                        @await Component.InvokeAsync("ShoppingCartSummary")                        
-                        <partial name="_LoginPartial" />
-
+                        @await Component.InvokeAsync("ShoppingCartSummary")
+                        @if (_signInManager.IsSignedIn(User) && User.IsInRole("admin"))
+                        {
+                            <partial name="_AdminPanel" />
+                        }
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        @if (_signInManager.IsSignedIn(User))
+                        {
+                            <li><a>Hello, @User.Identity.Name</a></li>
+                            <li>
+                                <form method="post" asp-action="Logout" asp-controller="Account">
+                                    <button type="submit" class="btn btn-link navbar-btn navbar-link">
+                                        Logout
+                                    </button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li><a asp-controller="Account" asp-action="Register">Register</a></li>
+                            <li><a asp-controller="Account" asp-action="Login">Login</a></li>
+                        }
                     </ul>
                 </div>
             </div>

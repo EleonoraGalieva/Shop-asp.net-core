@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>37029ed9-0cf8-49cf-809b-49236d07499a</UserSecretsId>
+    <!--<UserSecretsId>37029ed9-0cf8-49cf-809b-49236d07499a</UserSecretsId>-->
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,6 +11,8 @@
 
   <ItemGroup>
     <PackageReference Include="MailKit" Version="2.9.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="3.1.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="3.1.10" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0" />

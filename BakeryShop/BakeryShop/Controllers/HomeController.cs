@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BakeryShop.Controllers
 {
+    [RequireHttps]
     public class HomeController : Controller
     {
         private readonly IPieRepository _pieRepository;
