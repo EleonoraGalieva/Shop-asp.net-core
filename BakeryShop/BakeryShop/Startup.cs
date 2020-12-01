@@ -34,6 +34,14 @@ namespace BakeryShop
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+            services.AddAuthentication()
+                .AddGoogle(options =>
+                {
+                    options.ClientId = "668642207552-f58kbrjt2vjtn1b7td8pitubjjltujn3.apps.googleusercontent.com";
+                    options.ClientSecret = "QD9ng15VEhZPjYiXFvdgvvO3";
+                });
+
             services.AddScoped<IPieRepository, PieRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
