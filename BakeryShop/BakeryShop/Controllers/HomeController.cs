@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using BakeryShop.Models;
-using BakeryShop.ViewModels;
+﻿using BakeryShop.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Domain.Interfaces;
 
 namespace BakeryShop.Controllers
 {
@@ -17,8 +13,8 @@ namespace BakeryShop.Controllers
             _pieRepository = pieRepository;
         }
         public IActionResult Index()
-        {          
-            var homeViewModel = new HomeViewModel { PiesOfTheWeek = _pieRepository.PiesOfTheWeek };          
+        {
+            var homeViewModel = new HomeViewModel { PiesOfTheWeek = _pieRepository.PiesOfTheWeek };
             return View(homeViewModel);
         }
     }

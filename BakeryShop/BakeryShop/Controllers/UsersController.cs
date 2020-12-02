@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using BakeryShop.ViewModels;
 using Microsoft.AspNetCore.Authorization;
@@ -9,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BakeryShop.Controllers
 {
-    //[Authorize(Roles = "admin")]
+    [Authorize(Roles = "admin")]
     public class UsersController : Controller
     {
         UserManager<IdentityUser> _userManager;

@@ -1,0 +1,14 @@
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Services.BusinessLogic\bin\Debug\netcoreapp3.1\Services.BusinessLogic.deps.json
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Services.BusinessLogic\bin\Debug\netcoreapp3.1\Services.BusinessLogic.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Services.BusinessLogic\bin\Debug\netcoreapp3.1\Services.BusinessLogic.pdb
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Services.BusinessLogic\bin\Debug\netcoreapp3.1\Domain.Core.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Services.BusinessLogic\bin\Debug\netcoreapp3.1\Domain.Interfaces.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Services.BusinessLogic\bin\Debug\netcoreapp3.1\Domain.Interfaces.pdb
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Services.BusinessLogic\bin\Debug\netcoreapp3.1\Domain.Core.pdb
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Services.BusinessLogic\obj\Debug\netcoreapp3.1\Services.BusinessLogic.csprojAssemblyReference.cache
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Services.BusinessLogic\obj\Debug\netcoreapp3.1\Services.BusinessLogic.AssemblyInfoInputs.cache
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Services.BusinessLogic\obj\Debug\netcoreapp3.1\Services.BusinessLogic.AssemblyInfo.cs
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Services.BusinessLogic\obj\Debug\netcoreapp3.1\Services.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Services.BusinessLogic\obj\Debug\netcoreapp3.1\Services.BusinessLogic.csproj.CopyComplete
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Services.BusinessLogic\obj\Debug\netcoreapp3.1\Services.BusinessLogic.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Services.BusinessLogic\obj\Debug\netcoreapp3.1\Services.BusinessLogic.pdb

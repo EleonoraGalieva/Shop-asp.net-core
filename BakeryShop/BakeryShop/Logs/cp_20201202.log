@@ -1,0 +1,611 @@
+2020-12-02T18:55:34.7842890+03:00 [INF] () Application Starting.
+2020-12-02T18:55:44.3922633+03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2020-12-02T18:55:44.4002477+03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Production"
+2020-12-02T18:55:44.4042842+03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop"
+2020-12-02T19:00:23.7205004+03:00 [INF] () Application Starting.
+2020-12-02T19:00:26.2371909+03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2020-12-02T19:00:26.2428021+03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Production"
+2020-12-02T19:00:26.2495268+03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop"
+2020-12-02T19:04:14.5085336+03:00 [INF] () Application Starting.
+2020-12-02T19:04:17.0699665+03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2020-12-02T19:04:17.0752790+03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Production"
+2020-12-02T19:04:17.0786552+03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop"
+2020-12-02T19:04:25.3979476+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("220"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription], [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Pies] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[CategoryId]
+WHERE [p].[IsPieOfTheWeek] = CAST(1 AS bit)"
+2020-12-02T19:04:26.1234361+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T19:04:26.6192048+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:05:05.4640705+03:00 [INF] () Application Starting.
+2020-12-02T22:05:09.8919000+03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2020-12-02T22:05:09.8971074+03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Production"
+2020-12-02T22:05:09.8999430+03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop"
+2020-12-02T22:05:14.4815867+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("92"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription], [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Pies] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[CategoryId]
+WHERE [p].[IsPieOfTheWeek] = CAST(1 AS bit)"
+2020-12-02T22:05:15.0115817+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:05:15.4969553+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:06:34.1904903+03:00 [INF] () Application Starting.
+2020-12-02T22:06:37.2322348+03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2020-12-02T22:06:37.2371468+03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Production"
+2020-12-02T22:06:37.2394461+03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop"
+2020-12-02T22:06:41.4499445+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("82"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription], [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Pies] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[CategoryId]
+WHERE [p].[IsPieOfTheWeek] = CAST(1 AS bit)"
+2020-12-02T22:06:41.9981175+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:06:42.1151830+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("48"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:42.1866506+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("7"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:42.2454227+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/" responded 200 in 4874.1173 ms
+2020-12-02T22:06:42.7907638+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/favicon.ico" responded 404 in 1.5103 ms
+2020-12-02T22:06:42.9885745+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:06:42.9985296+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:43.0011764+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:43.0044363+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Error/404" responded 200 in 198.9971 ms
+2020-12-02T22:06:47.1322266+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription], [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Pies] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[CategoryId]
+WHERE [p].[IsPieOfTheWeek] = CAST(1 AS bit)"
+2020-12-02T22:06:47.1611989+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:06:47.1665120+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:47.1700924+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:47.1749048+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/" responded 200 in 72.5164 ms
+2020-12-02T22:06:47.2924476+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/favicon.ico" responded 404 in 1.4082 ms
+2020-12-02T22:06:47.3115300+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:06:47.3158691+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:47.3189655+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:47.3235093+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Error/404" responded 200 in 23.6383 ms
+2020-12-02T22:06:49.0989159+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription], [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Pies] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[CategoryId]"
+2020-12-02T22:06:49.1084925+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:06:49.1124253+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:49.1148827+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:49.1181757+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Pie/List?currentCategory=Apple%20pies" responded 200 in 65.3859 ms
+2020-12-02T22:06:49.2303690+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/favicon.ico" responded 404 in 0.1918 ms
+2020-12-02T22:06:49.2525497+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:06:49.2565123+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:49.2603155+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:49.2616664+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Error/404" responded 200 in 12.5433 ms
+2020-12-02T22:06:51.2170946+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription], [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Pies] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[CategoryId]"
+2020-12-02T22:06:51.2448196+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:06:51.2615712+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:51.2714725+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:51.2780337+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Pie/List?currentCategory=Other" responded 200 in 78.9283 ms
+2020-12-02T22:06:51.3890701+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/favicon.ico" responded 404 in 0.7093 ms
+2020-12-02T22:06:51.4040585+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:06:51.4135642+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:51.4159959+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:51.4177971+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Error/404" responded 200 in 21.2721 ms
+2020-12-02T22:06:53.5562988+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CommentId], [c].[CommentMessage], [c].[NameComment]
+FROM [Comments] AS [c]"
+2020-12-02T22:06:53.5762227+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:06:53.5803177+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:53.5819847+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:53.5841920+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Reviews" responded 200 in 62.9358 ms
+2020-12-02T22:06:53.8404948+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/favicon.ico" responded 404 in 0.1703 ms
+2020-12-02T22:06:53.8574169+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:06:53.8607699+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:53.8629347+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:53.8643117+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Error/404" responded 200 in 14.6641 ms
+2020-12-02T22:06:53.8727553+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/commentHub/negotiate?negotiateVersion=1" responded 200 in 37.6297 ms
+2020-12-02T22:06:57.2574835+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:06:57.2637799+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:57.2662970+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:57.2720638+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Account/Login" responded 200 in 135.4291 ms
+2020-12-02T22:06:57.4330355+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/commentHub?id=1tG1KomDF95DBsxVbvVqKw" responded 101 in 3546.8445 ms
+2020-12-02T22:06:57.4807321+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/favicon.ico" responded 404 in 0.2517 ms
+2020-12-02T22:06:57.5298527+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:06:57.5399488+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("8"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:57.5474300+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("6"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:57.5489176+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Error/404" responded 200 in 22.8874 ms
+2020-12-02T22:06:59.3214089+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:06:59.3258955+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:59.3280879+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:59.3300567+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Account/Register" responded 200 in 71.0195 ms
+2020-12-02T22:06:59.4289398+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/favicon.ico" responded 404 in 0.7099 ms
+2020-12-02T22:06:59.4442237+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T22:06:59.4470810+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:59.4490169+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T22:06:59.4499811+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Error/404" responded 200 in 9.6280 ms
+2020-12-02T23:23:11.5766112+03:00 [INF] () Application Starting.
+2020-12-02T23:23:17.5537773+03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2020-12-02T23:23:17.5611701+03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Production"
+2020-12-02T23:23:17.5668483+03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop"
+2020-12-02T23:23:26.3150892+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("183"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription], [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Pies] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[CategoryId]
+WHERE [p].[IsPieOfTheWeek] = CAST(1 AS bit)"
+2020-12-02T23:23:27.1492605+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:23:27.3506610+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("81"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:23:27.4333707+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("10"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:23:27.4972737+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/" responded 200 in 9725.5425 ms
+2020-12-02T23:23:28.2313460+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/favicon.ico" responded 404 in 2.2423 ms
+2020-12-02T23:23:28.4072580+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:23:28.4199077+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:23:28.4230957+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:23:28.4271749+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Error/404" responded 200 in 178.7501 ms
+2020-12-02T23:24:21.6650831+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:24:21.6779200+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:21.6823717+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:21.6923274+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Account/Login" responded 200 in 363.9496 ms
+2020-12-02T23:24:21.9314097+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/favicon.ico" responded 404 in 1.2773 ms
+2020-12-02T23:24:21.9706200+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:24:21.9789967+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:21.9831831+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:21.9860622+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Error/404" responded 200 in 42.9395 ms
+2020-12-02T23:24:23.8563142+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("73"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2020-12-02T23:24:24.0670141+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("7"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2020-12-02T23:24:24.3601443+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("5"ms) [Parameters=["@__user_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0"
+2020-12-02T23:24:24.4334751+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("11"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0"
+2020-12-02T23:24:24.4637381+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("5"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2020-12-02T23:24:24.5154670+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("5"ms) [Parameters=["@__role_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0"
+2020-12-02T23:24:24.5611102+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Account/Login" responded 302 in 1038.4714 ms
+2020-12-02T23:24:24.5949203+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription], [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Pies] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[CategoryId]
+WHERE [p].[IsPieOfTheWeek] = CAST(1 AS bit)"
+2020-12-02T23:24:24.6035585+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:24:24.6085745+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:24.6120090+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:24.6380691+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/" responded 200 in 62.7617 ms
+2020-12-02T23:24:24.8000681+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/favicon.ico" responded 404 in 2.6583 ms
+2020-12-02T23:24:24.8204017+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:24:24.8286820+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("5"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:24.8326086+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:24.8379588+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Error/404" responded 200 in 29.6577 ms
+2020-12-02T23:24:27.5683243+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription], [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Pies] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[CategoryId]"
+2020-12-02T23:24:27.6183854+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:24:27.6248541+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:27.6280989+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:27.6337966+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Pie" responded 200 in 129.2632 ms
+2020-12-02T23:24:27.8259169+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/favicon.ico" responded 404 in 2.5184 ms
+2020-12-02T23:24:27.8648877+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:24:27.8721349+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:27.8766332+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:27.8787903+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Error/404" responded 200 in 23.4738 ms
+2020-12-02T23:24:36.8643714+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("7"ms) [Parameters=["@__pieId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [Pies] AS [p]
+WHERE [p].[PieId] = @__pieId_0"
+2020-12-02T23:24:36.9479425+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("8"ms) [Parameters=["@__entity_equality_pie_0_PieId='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [p].[PieId] = @__entity_equality_pie_0_PieId"
+2020-12-02T23:24:37.1761722+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("11"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [Pies]
+WHERE [PieId] = @p0;
+SELECT @@ROWCOUNT;"
+2020-12-02T23:24:37.2103679+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Pie/Delete/6" responded 302 in 404.1515 ms
+2020-12-02T23:24:37.2232994+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription], [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Pies] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[CategoryId]"
+2020-12-02T23:24:37.2333931+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:24:37.2371662+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:37.2396221+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:37.2421741+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Pie" responded 200 in 24.5143 ms
+2020-12-02T23:24:37.3979910+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/favicon.ico" responded 404 in 7.2656 ms
+2020-12-02T23:24:37.4161945+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:24:37.4222971+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:37.4246186+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:37.4270859+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Error/404" responded 200 in 18.6539 ms
+2020-12-02T23:24:40.7380513+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription], [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Pies] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[CategoryId]
+WHERE [p].[IsPieOfTheWeek] = CAST(1 AS bit)"
+2020-12-02T23:24:40.7549942+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:24:40.7670744+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:40.7726813+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:40.7814746+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/" responded 200 in 74.2190 ms
+2020-12-02T23:24:41.1270953+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/favicon.ico" responded 404 in 5.0450 ms
+2020-12-02T23:24:41.1563475+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:24:41.1659222+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:41.1687611+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:41.1724822+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Error/404" responded 200 in 27.7545 ms
+2020-12-02T23:24:44.8176222+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription], [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Pies] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[CategoryId]"
+2020-12-02T23:24:44.8358660+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:24:44.8471540+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:44.8513727+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:44.8565127+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Pie/List?currentCategory=Ice%20cream%20pie" responded 200 in 127.0684 ms
+2020-12-02T23:24:44.9340241+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/favicon.ico" responded 404 in 1.0130 ms
+2020-12-02T23:24:44.9551935+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:24:44.9623556+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:44.9645077+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:44.9661882+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Error/404" responded 200 in 17.0592 ms
+2020-12-02T23:24:49.9178752+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("32"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription], [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Pies] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[CategoryId]"
+2020-12-02T23:24:49.9958892+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:24:50.0051022+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:50.0076425+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:50.0116264+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Pie" responded 200 in 165.5827 ms
+2020-12-02T23:24:50.2118366+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/favicon.ico" responded 404 in 1.8606 ms
+2020-12-02T23:24:50.2327403+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:24:50.2383738+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("3"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:50.2411967+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:50.2445334+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Error/404" responded 200 in 17.0670 ms
+2020-12-02T23:24:58.8713437+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Account/Logout" responded 302 in 42.1958 ms
+2020-12-02T23:24:58.9019719+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription], [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Pies] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[CategoryId]
+WHERE [p].[IsPieOfTheWeek] = CAST(1 AS bit)"
+2020-12-02T23:24:58.9200322+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:24:58.9325574+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("4"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:58.9395023+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:58.9433799+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/" responded 200 in 57.9011 ms
+2020-12-02T23:24:59.2215357+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/favicon.ico" responded 404 in 0.8445 ms
+2020-12-02T23:24:59.2551718+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [Categories] AS [c]"
+2020-12-02T23:24:59.2718817+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("8"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[ShoppingCartItemId], [s].[Amount], [s].[PieId], [s].[ShoppingCartId], [p].[PieId], [p].[AllergyInfo], [p].[CategoryId], [p].[ImageThumbnailUrl], [p].[ImageUrl], [p].[InStock], [p].[IsPieOfTheWeek], [p].[LongDescription], [p].[Name], [p].[Price], [p].[ShortDescription]
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:59.2821493+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("7"ms) [Parameters=["@__ShoppingCartId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COALESCE(SUM([p].[Price] * CAST([s].[Amount] AS decimal(18,2))), 0.0)
+FROM [ShoppingCartItems] AS [s]
+LEFT JOIN [Pies] AS [p] ON [s].[PieId] = [p].[PieId]
+WHERE [s].[ShoppingCartId] = @__ShoppingCartId_0"
+2020-12-02T23:24:59.2851895+03:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Error/404" responded 200 in 43.7264 ms

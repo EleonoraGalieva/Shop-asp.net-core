@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Xml.Schema;
-using BakeryShop.Models;
+﻿using System.Linq;
 using BakeryShop.ViewModels;
+using Domain.Interfaces;
+using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BakeryShop.Controllers

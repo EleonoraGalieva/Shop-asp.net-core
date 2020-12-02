@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using BakeryShop.Models;
 using BakeryShop.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Services.BusinessLogic;
 
 namespace BakeryShop.Controllers
 {
@@ -42,7 +40,7 @@ namespace BakeryShop.Controllers
                         "Account",
                         new { userId = user.Id, code = code },
                         protocol: HttpContext.Request.Scheme);
-                    EmailService emailService = new EmailService();
+                    EmailSender emailService = new EmailSender();
                     await emailService.SendEmailAsync(model.Email, "Confirm your account",
                         $"Confirm your account at Bakery Shop by clicking the link below: <a href='{callbackUrl}'>link</a>");
                     await _signInManager.SignInAsync(user, isPersistent: false);
