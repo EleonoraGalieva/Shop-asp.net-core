@@ -1,6 +1,7 @@
 ﻿using Domain.Core;
 using Domain.Interfaces;
 using System;
+using System.Collections.Generic;
 
 namespace Infrastructure.Data
 {
@@ -16,8 +17,8 @@ namespace Infrastructure.Data
         public void CreateOrder(Order order)
         {
             order.OrderPlaced = DateTime.Now;
-            _appDbContext.Orders.Add(order);
             var shoppingCartItems = _shoppingcart.GetShoppingCartItems();
+            order.OrderDetails = new List<OrderDetail>();
             foreach (var item in shoppingCartItems)
             {
                 var orderDetail = new OrderDetail
@@ -26,9 +27,11 @@ namespace Infrastructure.Data
                     Amount = item.Amount,
                     Price = item.Pie.Price,
                     PieId = item.Pie.PieId,
-                    OrderId = order.OrderId
+                    Order = order
                 };
+                order.OrderDetails.Add(orderDetail);
             }
+            _appDbContext.Orders.Add(order);
             _appDbContext.SaveChanges();
         }
     }

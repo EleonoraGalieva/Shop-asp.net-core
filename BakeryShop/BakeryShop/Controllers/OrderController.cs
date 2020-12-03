@@ -27,10 +27,11 @@ namespace BakeryShop.Controllers
             _shoppingcart.ShoppingCartItems = items;
             if (items.Count==0)
             {
-                ModelState.AddModelError("empty", "You have to add some items to your shopping cart first.");
+                ModelState.AddModelError(string.Empty, "You have to add some items to your shopping cart first.");
             }
             if(ModelState.IsValid)
             {
+                order.OrderTotal = _shoppingcart.GetShoppingCartTotal();
                 _orderRepository.CreateOrder(order);
                 _shoppingcart.ClearCart();
                 return RedirectToAction("CheckoutComplete");
