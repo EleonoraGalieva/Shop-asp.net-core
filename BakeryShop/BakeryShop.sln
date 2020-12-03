@@ -5,13 +5,15 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BakeryShop", "BakeryShop\BakeryShop.csproj", "{ADE3AB69-EA4F-471A-94AB-74959634D877}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Core", "Domain.Core\Domain.Core.csproj", "{D815DD2D-10E6-4A83-933F-AC8E1C97FE3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Core", "Domain.Core\Domain.Core.csproj", "{D815DD2D-10E6-4A83-933F-AC8E1C97FE3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Interfaces", "Domain.Interfaces\Domain.Interfaces.csproj", "{602B61E5-2D68-44BE-8B44-889A8309FC6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Interfaces", "Domain.Interfaces\Domain.Interfaces.csproj", "{602B61E5-2D68-44BE-8B44-889A8309FC6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Data", "Infrastructure.Data\Infrastructure.Data.csproj", "{B5572C9D-E1C3-418E-BE02-B34A5DC5A0EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Data", "Infrastructure.Data\Infrastructure.Data.csproj", "{B5572C9D-E1C3-418E-BE02-B34A5DC5A0EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.BusinessLogic", "Services.BusinessLogic\Services.BusinessLogic.csproj", "{76B88ED5-3018-40AF-9A73-5926D475AC82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.BusinessLogic", "Services.BusinessLogic\Services.BusinessLogic.csproj", "{76B88ED5-3018-40AF-9A73-5926D475AC82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakeryShop.Tests", "BakeryShop.Tests\BakeryShop.Tests.csproj", "{70922E51-EB45-49ED-B4A6-16B0E16831FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{76B88ED5-3018-40AF-9A73-5926D475AC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76B88ED5-3018-40AF-9A73-5926D475AC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76B88ED5-3018-40AF-9A73-5926D475AC82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70922E51-EB45-49ED-B4A6-16B0E16831FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70922E51-EB45-49ED-B4A6-16B0E16831FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70922E51-EB45-49ED-B4A6-16B0E16831FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70922E51-EB45-49ED-B4A6-16B0E16831FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

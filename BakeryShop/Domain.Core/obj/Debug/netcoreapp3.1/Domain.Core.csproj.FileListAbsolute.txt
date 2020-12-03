@@ -6,3 +6,4 @@ D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Core\obj\Debug\netcoreapp3.1\Do
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.csproj.CoreCompileInputs.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.pdb
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.csprojAssemblyReference.cache
