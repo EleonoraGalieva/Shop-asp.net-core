@@ -9,7 +9,7 @@ namespace Infrastructure.Data
         public AppDbContext CreateDbContext(string[] args)
         {
             var builder = new DbContextOptionsBuilder<AppDbContext>();
-            builder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=BethanysPieShop-1ED06986-5F07-4A1C-85B9-D9F3F477BFF5;Trusted_Connection=True;MultipleActiveResultSets=true",
+            builder.UseSqlServer("Server=tcp:bakeryshopdbserver.database.windows.net,1433;Initial Catalog=BakeryShop_db;Persist Security Info=False;User ID=admin1;Password=Bratzkid121820;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
                 optionsBuilder => optionsBuilder.MigrationsAssembly(typeof(AppDbContext).GetTypeInfo().Assembly.GetName().Name));
 
             return new AppDbContext(builder.Options);

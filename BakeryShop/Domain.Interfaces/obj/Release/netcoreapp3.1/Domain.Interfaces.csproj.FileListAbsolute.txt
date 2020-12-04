@@ -1,0 +1,12 @@
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Interfaces\bin\Release\netcoreapp3.1\Domain.Interfaces.deps.json
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Interfaces\bin\Release\netcoreapp3.1\Domain.Interfaces.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Interfaces\bin\Release\netcoreapp3.1\Domain.Interfaces.pdb
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Interfaces\bin\Release\netcoreapp3.1\Domain.Core.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Interfaces\bin\Release\netcoreapp3.1\Domain.Core.pdb
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Interfaces\obj\Release\netcoreapp3.1\Domain.Interfaces.csprojAssemblyReference.cache
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Interfaces\obj\Release\netcoreapp3.1\Domain.Interfaces.AssemblyInfoInputs.cache
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Interfaces\obj\Release\netcoreapp3.1\Domain.Interfaces.AssemblyInfo.cs
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Interfaces\obj\Release\netcoreapp3.1\Domain.Interfaces.csproj.CoreCompileInputs.cache
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Interfaces\obj\Release\netcoreapp3.1\Domain.Interfaces.csproj.CopyComplete
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Interfaces\obj\Release\netcoreapp3.1\Domain.Interfaces.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Interfaces\obj\Release\netcoreapp3.1\Domain.Interfaces.pdb
