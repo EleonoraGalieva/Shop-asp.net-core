@@ -181,10 +181,10 @@ namespace Infrastructure.Data.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
-                    b.Property<string>("ImageThumbnailUrl")
+                    b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<string>("ImageThumbnail")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("InStock")
@@ -217,8 +217,8 @@ namespace Infrastructure.Data.Migrations
                             PieId = 1,
                             AllergyInfo = "Contains sugar, milk, apples, gluten",
                             CategoryId = 1,
-                            ImageThumbnailUrl = "https://img.grouponcdn.com/seocms/2i7116adj14eoCiYBx8SQLUzXZrq/671x671_Apple_Pie_BUYING_GUIDE_DIFFERENT_TYPES_OF_PIE_012319_ak_jpg-671x671",
-                            ImageUrl = "https://img.grouponcdn.com/seocms/2i7116adj14eoCiYBx8SQLUzXZrq/671x671_Apple_Pie_BUYING_GUIDE_DIFFERENT_TYPES_OF_PIE_012319_ak_jpg-671x671",
+                            Image = "https://img.grouponcdn.com/seocms/2i7116adj14eoCiYBx8SQLUzXZrq/671x671_Apple_Pie_BUYING_GUIDE_DIFFERENT_TYPES_OF_PIE_012319_ak_jpg-671x671",
+                            ImageThumbnail = "https://img.grouponcdn.com/seocms/2i7116adj14eoCiYBx8SQLUzXZrq/671x671_Apple_Pie_BUYING_GUIDE_DIFFERENT_TYPES_OF_PIE_012319_ak_jpg-671x671",
                             InStock = true,
                             IsPieOfTheWeek = false,
                             LongDescription = "I remember coming home sullen one day because we'd lost a softball game. Grandma, in her wisdom, suggested, \"Maybe a slice of my homemade apple pie will make you feel better.\" One bite, and Grandma was right. If you want to learn how to make homemade apple pie filling, this is really the only recipe you need. —Maggie Greene, Granite Falls, Washington",
@@ -231,8 +231,8 @@ namespace Infrastructure.Data.Migrations
                             PieId = 2,
                             AllergyInfo = "Contains sugar, milk, gluten",
                             CategoryId = 2,
-                            ImageThumbnailUrl = "https://images.ctfassets.net/3s5io6mnxfqz/3RG0DDIeU6oW5XG04n2JSN/6f55a3abe26a310adf6ac1eeccbd811e/AdobeStock_177050939.jpeg?w=800&fm=jpg&fl=progressive",
-                            ImageUrl = "https://images.ctfassets.net/3s5io6mnxfqz/3RG0DDIeU6oW5XG04n2JSN/6f55a3abe26a310adf6ac1eeccbd811e/AdobeStock_177050939.jpeg?w=800&fm=jpg&fl=progressive",
+                            Image = "https://images.ctfassets.net/3s5io6mnxfqz/3RG0DDIeU6oW5XG04n2JSN/6f55a3abe26a310adf6ac1eeccbd811e/AdobeStock_177050939.jpeg?w=800&fm=jpg&fl=progressive",
+                            ImageThumbnail = "https://images.ctfassets.net/3s5io6mnxfqz/3RG0DDIeU6oW5XG04n2JSN/6f55a3abe26a310adf6ac1eeccbd811e/AdobeStock_177050939.jpeg?w=800&fm=jpg&fl=progressive",
                             InStock = true,
                             IsPieOfTheWeek = true,
                             LongDescription = "This is absolutely the BEST homemade pumpkin pie recipe! Make it with canned or fresh pumpkin puree and up to several days ahead. Also freezes well! Thanksgiving pie never looked so good or so easy.",
@@ -245,8 +245,8 @@ namespace Infrastructure.Data.Migrations
                             PieId = 3,
                             AllergyInfo = "Contains sugar, milk, gluten",
                             CategoryId = 3,
-                            ImageThumbnailUrl = "https://i2.wp.com/www.sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4.jpg",
-                            ImageUrl = "https://i2.wp.com/www.sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4.jpg",
+                            Image = "https://i2.wp.com/www.sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4.jpg",
+                            ImageThumbnail = "https://i2.wp.com/www.sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4.jpg",
                             InStock = true,
                             IsPieOfTheWeek = false,
                             LongDescription = "Simple and classic! The texture is smooth, rich, and creamy, served over a crisp homemade graham cracker crust.",

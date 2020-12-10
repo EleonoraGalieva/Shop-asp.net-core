@@ -5,19 +5,25 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Web;
 
 namespace Infrastructure.Data
 {
     public class ShoppingCart
     {
         private readonly AppDbContext _appDbContext;
+        public ShoppingCart Cart { get; set; }
         public string ShoppingCartId { get; set; }
         public List<ShoppingCartItem> ShoppingCartItems { get; set; }
         private ShoppingCart(AppDbContext appDbContext)
         {
             _appDbContext = appDbContext;
         }
-        public static ShoppingCart GetCart(IServiceProvider services)
+        public ShoppingCart(IServiceProvider serviceProvider)
+        {
+            Cart = GetCart(serviceProvider);
+        }
+        public ShoppingCart GetCart(IServiceProvider services)
         {
             ISession session = services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
             var context = services.GetService<AppDbContext>();
@@ -25,6 +31,7 @@ namespace Infrastructure.Data
             session.SetString("CartId", cartId);
             return new ShoppingCart(context) { ShoppingCartId = cartId };
         }
+
         public void AddToCart(Pie pie, int amount)
         {
             var shoppingCartItem =

@@ -66,9 +66,9 @@ namespace BakeryShop.Tests
                 LongDescription = "So if you love ice cream, " +
                 "you should totally give this a try!",
                 CategoryId = 5,
-                ImageUrl = "https://www.mysequinedlife.com/wp-content/uploads/2016/08/no-bake-ice-cream-pie-1.jpg",
+                Image = "https://www.mysequinedlife.com/wp-content/uploads/2016/08/no-bake-ice-cream-pie-1.jpg",
                 InStock = true,
-                ImageThumbnailUrl = "https://www.mysequinedlife.com/wp-content/uploads/2016/08/no-bake-ice-cream-pie-1.jpg",
+                ImageThumbnail = "https://www.mysequinedlife.com/wp-content/uploads/2016/08/no-bake-ice-cream-pie-1.jpg",
                 AllergyInfo = "Contains sugar, milk, gluten",
             });
 

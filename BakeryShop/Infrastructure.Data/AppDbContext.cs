@@ -41,9 +41,9 @@ namespace Infrastructure.Data
                 "homemade apple pie filling, this is really the only recipe you need." +
                 " —Maggie Greene, Granite Falls, Washington",
                 CategoryId = 1,
-                ImageUrl = "https://img.grouponcdn.com/seocms/2i7116adj14eoCiYBx8SQLUzXZrq/671x671_Apple_Pie_BUYING_GUIDE_DIFFERENT_TYPES_OF_PIE_012319_ak_jpg-671x671",
+                Image = "https://img.grouponcdn.com/seocms/2i7116adj14eoCiYBx8SQLUzXZrq/671x671_Apple_Pie_BUYING_GUIDE_DIFFERENT_TYPES_OF_PIE_012319_ak_jpg-671x671",
                 InStock = true,
-                ImageThumbnailUrl = "https://img.grouponcdn.com/seocms/2i7116adj14eoCiYBx8SQLUzXZrq/671x671_Apple_Pie_BUYING_GUIDE_DIFFERENT_TYPES_OF_PIE_012319_ak_jpg-671x671",
+                ImageThumbnail = "https://img.grouponcdn.com/seocms/2i7116adj14eoCiYBx8SQLUzXZrq/671x671_Apple_Pie_BUYING_GUIDE_DIFFERENT_TYPES_OF_PIE_012319_ak_jpg-671x671",
                 AllergyInfo = "Contains sugar, milk, apples, gluten",
             });
 
@@ -59,9 +59,9 @@ namespace Infrastructure.Data
                 "and up to several days ahead. Also freezes well! Thanksgiving pie never " +
                 "looked so good or so easy.",
                 CategoryId = 2,
-                ImageUrl = "https://images.ctfassets.net/3s5io6mnxfqz/3RG0DDIeU6oW5XG04n2JSN/6f55a3abe26a310adf6ac1eeccbd811e/AdobeStock_177050939.jpeg?w=800&fm=jpg&fl=progressive",
+                Image = "https://images.ctfassets.net/3s5io6mnxfqz/3RG0DDIeU6oW5XG04n2JSN/6f55a3abe26a310adf6ac1eeccbd811e/AdobeStock_177050939.jpeg?w=800&fm=jpg&fl=progressive",
                 InStock = true,
-                ImageThumbnailUrl = "https://images.ctfassets.net/3s5io6mnxfqz/3RG0DDIeU6oW5XG04n2JSN/6f55a3abe26a310adf6ac1eeccbd811e/AdobeStock_177050939.jpeg?w=800&fm=jpg&fl=progressive",
+                ImageThumbnail = "https://images.ctfassets.net/3s5io6mnxfqz/3RG0DDIeU6oW5XG04n2JSN/6f55a3abe26a310adf6ac1eeccbd811e/AdobeStock_177050939.jpeg?w=800&fm=jpg&fl=progressive",
                 AllergyInfo = "Contains sugar, milk, gluten",
             });
 
@@ -76,9 +76,9 @@ namespace Infrastructure.Data
                 "The texture is smooth, rich, and creamy, served over a " +
                 "crisp homemade graham cracker crust.",
                 CategoryId = 3,
-                ImageUrl = "https://i2.wp.com/www.sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4.jpg",
+                Image = "https://i2.wp.com/www.sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4.jpg",
                 InStock = true,
-                ImageThumbnailUrl = "https://i2.wp.com/www.sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4.jpg",
+                ImageThumbnail = "https://i2.wp.com/www.sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4.jpg",
                 AllergyInfo = "Contains sugar, milk, gluten",
             });
         }

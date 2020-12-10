@@ -1,9 +1,9 @@
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Core\bin\Debug\netcoreapp3.1\Domain.Core.deps.json
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Core\bin\Debug\netcoreapp3.1\Domain.Core.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Core\bin\Debug\netcoreapp3.1\Domain.Core.pdb
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.csprojAssemblyReference.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.AssemblyInfoInputs.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.AssemblyInfo.cs
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.csproj.CoreCompileInputs.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.pdb
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.csprojAssemblyReference.cache

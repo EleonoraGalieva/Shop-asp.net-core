@@ -1,12 +1,10 @@
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\appsettings.json
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\libman.json
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.BakeryShopEleonora - Web Deploy.json
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\BakeryShopEleonora - Web Deploy1\profile.arm.json
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\BakeryShopEleonora - Web Deploy\mssql1.arm.json
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\BakeryShopEleonora - Web Deploy\profile.arm.json
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\BakeryShop.StaticWebAssets.xml
@@ -117,6 +115,8 @@ D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\zh-
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
@@ -151,6 +151,7 @@ D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\ru\
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb

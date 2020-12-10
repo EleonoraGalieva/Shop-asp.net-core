@@ -1,4 +1,6 @@
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\bin\Debug\netcoreapp3.1\Infrastructure.Data.deps.json
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\bin\Debug\netcoreapp3.1\Infrastructure.Data.runtimeconfig.json
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\bin\Debug\netcoreapp3.1\Infrastructure.Data.runtimeconfig.dev.json
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\bin\Debug\netcoreapp3.1\Infrastructure.Data.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\bin\Debug\netcoreapp3.1\Infrastructure.Data.pdb
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\bin\Debug\netcoreapp3.1\Domain.Core.dll
@@ -8,10 +10,8 @@ D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\bin\Debug\netcorea
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.csprojAssemblyReference.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.AssemblyInfoInputs.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.AssemblyInfo.cs
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.csproj.CoreCompileInputs.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.csproj.CopyComplete
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.pdb
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\bin\Debug\netcoreapp3.1\Infrastructure.Data.runtimeconfig.json
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\bin\Debug\netcoreapp3.1\Infrastructure.Data.runtimeconfig.dev.json
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.csproj.CoreCompileInputs.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.genruntimeconfig.cache

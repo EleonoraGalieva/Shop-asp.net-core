@@ -9,6 +9,7 @@ using Serilog;
 using Domain.Interfaces;
 using Infrastructure.Data;
 using Services.BusinessLogic;
+using System;
 
 namespace BakeryShop
 {
@@ -34,19 +35,16 @@ namespace BakeryShop
             services.AddAuthentication()
                 .AddGoogle(options =>
                 {
+                    /*options.ClientId = Configuration["Authentication:ClientId"];
+                    options.ClientSecret = Configuration["Authentication:ClientSecret"];*/
                     options.ClientId = "668642207552-f58kbrjt2vjtn1b7td8pitubjjltujn3.apps.googleusercontent.com";
                     options.ClientSecret = "QD9ng15VEhZPjYiXFvdgvvO3";
-                })
-                /*.AddFacebook(options =>
-                {
-                    options.AppId = "872204190187880";
-                    options.AppSecret = "7f92ebae7f7eeded40880f89f7b88f4e";
-                })*/;
+                });
             services.AddScoped<IPieRepository, PieRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddScoped<ICommentRepository, CommentRepository>();
-            services.AddScoped<ShoppingCart>(sp => ShoppingCart.GetCart(sp));
+            services.AddScoped<ShoppingCart>(sp=>new ShoppingCart(sp).Cart);
             services.AddHttpContextAccessor();
             services.AddSession();
             services.AddControllersWithViews();

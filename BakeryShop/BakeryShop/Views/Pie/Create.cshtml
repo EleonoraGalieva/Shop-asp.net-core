@@ -2,7 +2,7 @@
 @{
     ViewBag.Title = "Create pie";
 }
-<form asp-action="Create" asp-controller="Pie">
+<form enctype="multipart/form-data" asp-action="Create" asp-controller="Pie">
     <div asp-validation-summary="All" class="text-danger"></div>
     <div class="form-group">
         <label asp-for="Name" class="control-label">Name</label>
@@ -26,7 +26,11 @@
     </div>
     <div class="form-group">
         <label asp-for="ImageUrl" class="control-label">Image (url)</label>
-        <input type="text" asp-for="ImageUrl" class="form-control" />
+        <input type="url" asp-for="ImageUrl" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ImageFile" class="control-label">File image</label>
+        <input asp-for="ImageFile" class="form-control" />
     </div>
     <div class="form-group">
         <label asp-for="ImageThumbnailUrl" class="control-label">Image for thumbnail (url)</label>
