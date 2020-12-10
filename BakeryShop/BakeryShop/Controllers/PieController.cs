@@ -81,7 +81,6 @@ namespace BakeryShop.Controllers
                     AllergyInfo = model.AllergyInfo,
                     CategoryId = model.CategoryId,
                     InStock = model.InStock,
-                    ImageThumbnail = model.ImageThumbnailUrl,
                     IsPieOfTheWeek = model.IsPieOfTheWeek,
                     LongDescription = model.LongDescription,
                     Price = Convert.ToDecimal(model.Price)
@@ -122,7 +121,6 @@ namespace BakeryShop.Controllers
                 Name = pie.Name,
                 ShortDescription = pie.ShortDescription,
                 AllergyInfo = pie.AllergyInfo,
-                ImageThumbnailUrl = pie.ImageThumbnail,
                 InStock = pie.InStock,
                 IsPieOfTheWeek = pie.IsPieOfTheWeek,
                 LongDescription = pie.LongDescription,
@@ -158,7 +156,6 @@ namespace BakeryShop.Controllers
                     pie.ShortDescription = model.ShortDescription;
                     pie.AllergyInfo = model.AllergyInfo;
                     pie.CategoryId = model.CategoryId;
-                    pie.ImageThumbnail = model.ImageThumbnailUrl;
                     pie.InStock = model.InStock;
                     pie.IsPieOfTheWeek = model.IsPieOfTheWeek;
                     pie.LongDescription = model.LongDescription;

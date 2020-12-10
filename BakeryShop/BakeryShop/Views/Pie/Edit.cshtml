@@ -36,23 +36,21 @@
         <input type="text" asp-for="Price" class="form-control" />
     </div>
     <div class="form-group">
-        <label asp-for="ImageUrl" class="control-label">Image (url)</label>
-        <input type="url" asp-for="ImageUrl" class="form-control" />
-    </div>
-    <div class="form-group">
         <label asp-for="ImageFile" class="control-label">File image</label>
         <input type="file" asp-for="ImageFile" class="form-control" />
     </div>
     @if (photoPath != null)
     {
         <div class="form-group">
-            <p class="text-info">Previous image</p>
-            <img class="thumbnail" src="@photoPath" asp-append-version="true" />
+            <h4 class="text-info">Previous image:</h4>
+            <div class="thumbnail center-block img-delails">
+                <img src="@photoPath" asp-append-version="true" />
+            </div>
         </div>
     }
     <div class="form-group">
-        <label asp-for="ImageThumbnailUrl" class="control-label">Image for thumbnail (url)</label>
-        <input type="url" asp-for="ImageThumbnailUrl" class="form-control" />
+        <label asp-for="ImageUrl" class="control-label">Image (url)</label>
+        <input type="url" asp-for="ImageUrl" class="form-control" />
     </div>
     <div class="form-group">
         <label asp-for="IsPieOfTheWeek" class="control-label">Is it pie of the week?</label>

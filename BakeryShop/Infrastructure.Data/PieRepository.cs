@@ -64,7 +64,6 @@ namespace Infrastructure.Data
                 pie.ShortDescription = newPie.ShortDescription;
                 pie.AllergyInfo = newPie.AllergyInfo;
                 pie.CategoryId = newPie.CategoryId;
-                pie.ImageThumbnail = newPie.ImageThumbnail;
                 pie.Image = newPie.Image;
                 pie.InStock = newPie.InStock;
                 pie.IsPieOfTheWeek = newPie.IsPieOfTheWeek;

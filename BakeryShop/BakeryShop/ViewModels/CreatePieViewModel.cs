@@ -22,8 +22,6 @@ namespace BakeryShop.ViewModels
         public IFormFile ImageFile { get; set; }
         [DataType(DataType.ImageUrl)]
         public string ImageUrl { get; set; }
-        [Required]
-        public string ImageThumbnailUrl { get; set; }
         public bool IsPieOfTheWeek { get; set; }
         public bool InStock { get; set; }
         public int CategoryId { get; set; }

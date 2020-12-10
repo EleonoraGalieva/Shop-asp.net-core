@@ -30,6 +30,7 @@
 
 .thumbnail img {
     width: 100%;
+    max-width: 300px;
 }
 
 .addToCart {
@@ -90,3 +91,8 @@ footer {
     background-color: #fcaeae !important;
     border-color: #fba1a1 !important;
 }
+
+.img-delails {
+    padding: 10px
+}
+

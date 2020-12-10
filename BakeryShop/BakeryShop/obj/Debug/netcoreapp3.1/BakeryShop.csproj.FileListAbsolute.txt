@@ -175,7 +175,6 @@ D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Bak
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.AssemblyInfoInputs.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.AssemblyInfo.cs
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.csproj.CoreCompileInputs.cache
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.MvcApplicationPartsAssemblyInfo.cs
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.MvcApplicationPartsAssemblyInfo.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.RazorAssemblyInfo.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.RazorAssemblyInfo.cs

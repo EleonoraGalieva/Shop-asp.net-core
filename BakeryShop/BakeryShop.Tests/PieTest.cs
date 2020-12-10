@@ -68,7 +68,6 @@ namespace BakeryShop.Tests
                 CategoryId = 5,
                 Image = "https://www.mysequinedlife.com/wp-content/uploads/2016/08/no-bake-ice-cream-pie-1.jpg",
                 InStock = true,
-                ImageThumbnail = "https://www.mysequinedlife.com/wp-content/uploads/2016/08/no-bake-ice-cream-pie-1.jpg",
                 AllergyInfo = "Contains sugar, milk, gluten",
             });
 

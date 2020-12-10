@@ -43,7 +43,6 @@ namespace Infrastructure.Data
                 CategoryId = 1,
                 Image = "https://img.grouponcdn.com/seocms/2i7116adj14eoCiYBx8SQLUzXZrq/671x671_Apple_Pie_BUYING_GUIDE_DIFFERENT_TYPES_OF_PIE_012319_ak_jpg-671x671",
                 InStock = true,
-                ImageThumbnail = "https://img.grouponcdn.com/seocms/2i7116adj14eoCiYBx8SQLUzXZrq/671x671_Apple_Pie_BUYING_GUIDE_DIFFERENT_TYPES_OF_PIE_012319_ak_jpg-671x671",
                 AllergyInfo = "Contains sugar, milk, apples, gluten",
             });
 
@@ -61,7 +60,6 @@ namespace Infrastructure.Data
                 CategoryId = 2,
                 Image = "https://images.ctfassets.net/3s5io6mnxfqz/3RG0DDIeU6oW5XG04n2JSN/6f55a3abe26a310adf6ac1eeccbd811e/AdobeStock_177050939.jpeg?w=800&fm=jpg&fl=progressive",
                 InStock = true,
-                ImageThumbnail = "https://images.ctfassets.net/3s5io6mnxfqz/3RG0DDIeU6oW5XG04n2JSN/6f55a3abe26a310adf6ac1eeccbd811e/AdobeStock_177050939.jpeg?w=800&fm=jpg&fl=progressive",
                 AllergyInfo = "Contains sugar, milk, gluten",
             });
 
@@ -78,7 +76,6 @@ namespace Infrastructure.Data
                 CategoryId = 3,
                 Image = "https://i2.wp.com/www.sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4.jpg",
                 InStock = true,
-                ImageThumbnail = "https://i2.wp.com/www.sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4.jpg",
                 AllergyInfo = "Contains sugar, milk, gluten",
             });
         }
