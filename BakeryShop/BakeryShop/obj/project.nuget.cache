@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UEWdTkx+c4wYTB/7RyS+rXn4ugUea/U+8ca+5R8yMciUbMjvEocJGyavsrk/1bnH5OuIVjnDLQEXUew3NT+M+w==",
+  "dgSpecHash": "c6gSqQ6xeX7HJVM4YGc8LiNUlymLiun4dr/otCpbqY6yAaWd5a38LM58Fhl/Lwatkz6X8ReiITPZ/bZ18nHnlw==",
   "success": true,
   "projectFilePath": "D:\\STUDY\\ASP\\Shop-asp.net-core\\BakeryShop\\BakeryShop\\BakeryShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\magick.net-q8-anycpu\\7.22.2.2\\magick.net-q8-anycpu.7.22.2.2.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\magick.net.core\\5.2.2\\magick.net.core.5.2.2.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\mailkit\\2.10.0\\mailkit.2.10.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

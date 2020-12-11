@@ -5,6 +5,7 @@ using System.Linq;
 using BakeryShop.ViewModels;
 using Domain.Core;
 using Domain.Interfaces;
+using ImageMagick;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -160,7 +161,7 @@ namespace BakeryShop.Controllers
                     pie.IsPieOfTheWeek = model.IsPieOfTheWeek;
                     pie.LongDescription = model.LongDescription;
                     pie.Price = Convert.ToDecimal(model.Price);
-                    if(model.ImageUrl!=null)
+                    if (model.ImageUrl != null)
                     {
                         pie.Image = model.ImageUrl;
                     }
@@ -198,6 +199,11 @@ namespace BakeryShop.Controllers
                 using (var fileStream = new FileStream(filePath, FileMode.Create))
                 {
                     model.ImageFile.CopyTo(fileStream);
+                }
+                using (var image = new MagickImage(filePath))
+                {
+                    image.Resize(500, 0);
+                    image.Write(filePath);
                 }
             }
             return uniqueFileName;

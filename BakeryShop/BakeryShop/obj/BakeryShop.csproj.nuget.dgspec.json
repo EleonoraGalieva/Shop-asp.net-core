@@ -51,6 +51,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Magick.NET-Q8-AnyCPU": {
+              "target": "Package",
+              "version": "[7.22.2.2, )"
+            },
             "MailKit": {
               "target": "Package",
               "version": "[2.10.0, )"
