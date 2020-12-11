@@ -17,6 +17,8 @@ D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Bak
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\BakeryShop.Views.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\BakeryShop.Views.pdb
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Humanizer.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Magick.NET-Q8-AnyCPU.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Magick.NET.Core.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\MailKit.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
@@ -151,6 +153,11 @@ D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\ru\
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\Magick.Native-Q8-x64.dll.so
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\Magick.Native-Q8-x64.dll.so
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\Magick.Native-Q8-x64.dll.dylib
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Magick.Native-Q8-x64.dll
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Magick.Native-Q8-x86.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
@@ -174,6 +181,9 @@ D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Dom
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.csprojAssemblyReference.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.AssemblyInfoInputs.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.AssemblyInfo.cs
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.csproj.CoreCompileInputs.cache
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.MvcApplicationPartsAssemblyInfo.cs
+D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.MvcApplicationPartsAssemblyInfo.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.RazorAssemblyInfo.cache
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.RazorAssemblyInfo.cs
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.TagHelpers.input.cache
@@ -191,7 +201,6 @@ D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Raz
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Razor\Views\Pie\Index.cshtml.g.cs
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Razor\Views\Pie\List.cshtml.g.cs
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Razor\Views\Pie\PieNotFound.cshtml.g.cs
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Razor\Views\Reviews\Index.cshtml.g.cs
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Create.cshtml.g.cs
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Edit.cshtml.g.cs
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Index.cshtml.g.cs
@@ -221,13 +230,3 @@ D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\sta
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.dll
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.pdb
 D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.genruntimeconfig.cache
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Magick.NET-Q8-AnyCPU.dll
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\Magick.NET.Core.dll
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\Magick.Native-Q8-x64.dll.so
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\Magick.Native-Q8-x64.dll.so
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\Magick.Native-Q8-x64.dll.dylib
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Magick.Native-Q8-x64.dll
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Magick.Native-Q8-x86.dll
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.csproj.CoreCompileInputs.cache
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.MvcApplicationPartsAssemblyInfo.cs
-D:\STUDY\ASP\Shop-asp.net-core\BakeryShop\BakeryShop\obj\Debug\netcoreapp3.1\BakeryShop.MvcApplicationPartsAssemblyInfo.cache

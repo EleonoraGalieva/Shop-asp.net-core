@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
 using BakeryShop.ViewModels;
+using Domain.Core;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -10,8 +11,8 @@ namespace BakeryShop.Controllers
     [Authorize(Roles = "admin")]
     public class UsersController : Controller
     {
-        UserManager<IdentityUser> _userManager;
-        public UsersController(UserManager<IdentityUser> userManager) => _userManager = userManager;
+        UserManager<ApplicationUser> _userManager;
+        public UsersController(UserManager<ApplicationUser> userManager) => _userManager = userManager;
 
         public IActionResult Index() => View(_userManager.Users.ToList());
 
@@ -22,7 +23,7 @@ namespace BakeryShop.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new IdentityUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

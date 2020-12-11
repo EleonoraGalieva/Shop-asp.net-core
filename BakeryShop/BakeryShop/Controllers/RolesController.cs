@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using BakeryShop.ViewModels;
+using Domain.Core;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -12,8 +13,8 @@ namespace BakeryShop.Controllers
     public class RolesController : Controller
     {
         RoleManager<IdentityRole> _roleManager;
-        UserManager<IdentityUser> _userManager;
-        public RolesController(RoleManager<IdentityRole> roleManager, UserManager<IdentityUser> userManager)
+        UserManager<ApplicationUser> _userManager;
+        public RolesController(RoleManager<IdentityRole> roleManager, UserManager<ApplicationUser> userManager)
         {
             _roleManager = roleManager;
             _userManager = userManager;
@@ -57,7 +58,7 @@ namespace BakeryShop.Controllers
 
         public async Task<IActionResult> Edit(string userId)
         {
-            IdentityUser user = await _userManager.FindByIdAsync(userId);
+            ApplicationUser user = await _userManager.FindByIdAsync(userId);
             if (user != null)
             {
                 var userRoles = await _userManager.GetRolesAsync(user);
@@ -77,7 +78,7 @@ namespace BakeryShop.Controllers
         [HttpPost]
         public async Task<IActionResult> Edit(string userId, List<string> roles)
         {
-            IdentityUser user = await _userManager.FindByIdAsync(userId);
+            ApplicationUser user = await _userManager.FindByIdAsync(userId);
             if (user != null)
             {
                 var userRoles = await _userManager.GetRolesAsync(user);

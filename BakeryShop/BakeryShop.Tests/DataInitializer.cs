@@ -14,10 +14,10 @@ namespace BakeryShop.Tests
         {
             context.Database.EnsureDeleted();
             context.Database.EnsureCreated();
-
+            context.Users.Add(new ApplicationUser { UserName = "ela", Email = "ela@gmail.com", Id = "1" });
             context.Comments.AddRange(
-                new Comment { CommentMessage = "Hello", NameComment = "Mike" },
-                new Comment { CommentMessage = "Bye", NameComment = "Nick" });
+                new Comment { CommentMessage = "Hello", ApplicationUserId = "1" },
+                new Comment { CommentMessage = "Bye", ApplicationUserId = "1" });
 
             context.SaveChanges();
         }

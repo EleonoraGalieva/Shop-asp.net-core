@@ -47,7 +47,7 @@ namespace BakeryShop.Tests
             Assert.NotNull(comments);
             Assert.Equal(2, comments.ToList().Count);
 
-            commentRepository.CreateComment(new Comment { CommentMessage = "Hi", NameComment = "Mari" });
+            commentRepository.CreateComment(new Comment { CommentMessage = "Hi", ApplicationUserId="1" });
 
             comments = commentRepository.AllComments;
             Assert.NotNull(comments);

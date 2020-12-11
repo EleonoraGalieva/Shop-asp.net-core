@@ -10,6 +10,7 @@ using Domain.Interfaces;
 using Infrastructure.Data;
 using Services.BusinessLogic;
 using System;
+using Domain.Core;
 
 namespace BakeryShop
 {
@@ -27,7 +28,7 @@ namespace BakeryShop
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
                 m => m.MigrationsAssembly("BakeryShop")));
-            services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            services.AddIdentity<ApplicationUser, IdentityRole>(options =>
             {
                 options.SignIn.RequireConfirmedEmail = true;
             }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();

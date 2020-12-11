@@ -18,12 +18,14 @@ namespace BakeryShop.Controllers
         private readonly IPieRepository _pieRepository;
         private readonly ICategoryRepository _categoryRepository;
         private readonly IHostingEnvironment _hostingEnvironment;
+        private readonly ICommentRepository _commentRepository;
 
-        public PieController(IPieRepository pieRepository, ICategoryRepository categoryRepository, IHostingEnvironment hostingEnvironment)
+        public PieController(IPieRepository pieRepository, ICategoryRepository categoryRepository, IHostingEnvironment hostingEnvironment, ICommentRepository commentRepository)
         {
             _categoryRepository = categoryRepository;
             _pieRepository = pieRepository;
             _hostingEnvironment = hostingEnvironment;
+            _commentRepository = commentRepository;
         }
 
         public ViewResult List(string currentCategory)
@@ -51,7 +53,12 @@ namespace BakeryShop.Controllers
                 Response.StatusCode = 404;
                 return View("PieNotFound");
             }
-            return View(pie);
+            DetailsViewModel model = new DetailsViewModel
+            {
+                Comments = _commentRepository.FindAllByPieId(pie.PieId),
+                Pie = pie
+            };
+            return View(model);
         }
 
         [Authorize(Roles = "admin")]

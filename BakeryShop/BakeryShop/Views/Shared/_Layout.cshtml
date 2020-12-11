@@ -1,4 +1,4 @@
-﻿@inject SignInManager<IdentityUser> _signInManager;
+﻿@inject SignInManager<ApplicationUser> _signInManager;
 
 <!DOCTYPE html>
 
@@ -28,7 +28,6 @@
                     <ul class="nav navbar-nav">
                         <li><a asp-controller="Home" asp-action="Index">Home</a></li>
                         @await Component.InvokeAsync("MenuCategory")
-                        <li><a asp-controller="Reviews" asp-action="Index">Reviews</a></li>
                         @await Component.InvokeAsync("ShoppingCartSummary")
                         @if (_signInManager.IsSignedIn(User) && User.IsInRole("admin"))
                         {

@@ -1,34 +1,85 @@
-﻿@model Pie
+﻿@model DetailsViewModel
 
 @{
-    var photoPath = Model.Image;
-    if (!Uri.IsWellFormedUriString(Model.Image, UriKind.Absolute))
+    var photoPath = Model.Pie.Image;
+    if (!Uri.IsWellFormedUriString(Model.Pie.Image, UriKind.Absolute))
     {
-        photoPath = "~/Images/" + Model.Image;
+        photoPath = "~/Images/" + Model.Pie.Image;
     }
 }
 
-<h2>@Model.Name</h2>
+<h2>@Model.Pie.Name</h2>
 
 <div class="thumbnail row">
-    <img alt="@Model.Name" src="@photoPath" asp-append-version="true" class="col-lg-6 img-delails">
+    <img alt="@Model.Pie.Name" src="@photoPath" asp-append-version="true" class="col-lg-6 img-delails">
     <div class="caption-full col-lg-6">
-        <h3 class="pull-right">@Model.Price.ToString("c")</h3>
+        <h3 class="pull-right">@Model.Pie.Price.ToString("c")</h3>
         <h3>
-            <a href="#">@Model.Name</a>
+            <a href="#">@Model.Pie.Name</a>
         </h3>
-        <h4>@Model.ShortDescription</h4>
-        <p>@Model.LongDescription</p>
-        <p>@Model.AllergyInfo</p>
+        <h4>@Model.Pie.ShortDescription</h4>
+        <p>@Model.Pie.LongDescription</p>
+        <p>@Model.Pie.AllergyInfo</p>
         <div class="addToCart">
             <p class="button center-block">
                 <a class="btn btn-primary"
                    asp-controller="ShoppingCart"
                    asp-action="AddToShoppingCart"
-                   asp-route-pieId="@Model.PieId">
+                   asp-route-pieId="@Model.Pie.PieId">
                     Add to shopping cart
                 </a>
             </p>
         </div>
     </div>
 </div>
+@if (User.Identity.IsAuthenticated)
+{<div class="container" style="padding-bottom: 10px">
+        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div class="col-6">
+                <input type="hidden" id="pieId" asp-for="@Model.Pie.PieId" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">Comment</div>
+            <div class="col-4"><input type="text" id="messageInput" /></div>
+        </div>
+        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div class="col-6">
+                <input type="button" id="sendButton" class="btn btn-primary" value="Send" />
+            </div>
+        </div>
+    </div>
+}
+@if (!User.Identity.IsAuthenticated)
+{
+    <p>Please, log in to add a comment.</p>
+}
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <div class="page-header">
+                <h2><small class="pull-right" id="comAmount">@Model.Comments.ToList().Count comments</small>Comments</h2>
+            </div>
+            <div class="comments-list" id="messagesList">
+                @foreach (var comment in Model.Comments)
+                {
+                    <div class="media">
+                        <div class="media-body">
+                            <h3 class="media-heading user_name">@comment.ApplicationUser.UserName</h3>
+                            @comment.CommentMessage
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <hr />
+    </div>
+</div>
+<script src="~/js/signalr/dist/browser/signalr.min.js"></script>
+<script src="~/js/comments.js"></script>
